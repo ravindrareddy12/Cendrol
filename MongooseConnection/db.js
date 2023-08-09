@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Connect to the MongoDB database
+
 mongoose.connect('mongodb+srv://ravindra:1234@cluster0.aywfm1p.mongodb.net/Cendrol?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
